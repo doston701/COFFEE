@@ -42,15 +42,15 @@
   }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 408px) {
   .site-header {
     padding: 32px 0;
   }
 
   .site-header__wraper {
+    max-width: 339px;
     @include list;
     justify-content: space-between;
-    max-width: 339px;
   }
 
   .site-header__img-wrap {
@@ -64,7 +64,6 @@
 
   .header__button {
     display: inline-block;
-    margin-right: 20px;
-    margin-left: 108px;
+    margin-right: 8px;
   }
 }
