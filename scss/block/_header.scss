@@ -35,35 +35,3 @@
   display: none;
   padding: 0;
 }
-
-@media only screen and (max-width: 728px) {
-  .site-header {
-    padding: 40px 0;
-  }
-}
-
-@media only screen and (max-width: 408px) {
-  .site-header {
-    padding: 32px 0;
-  }
-
-  .site-header__wraper {
-    max-width: 339px;
-    @include list;
-    justify-content: space-between;
-  }
-
-  .site-header__img-wrap {
-    max-width: 163px;
-    height: 18px;
-  }
-
-  .navbar__list {
-    display: none;
-  }
-
-  .header__button {
-    display: inline-block;
-    margin-right: 8px;
-  }
-}
