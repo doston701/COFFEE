@@ -35,3 +35,36 @@
   display: none;
   padding: 0;
 }
+
+@media only screen and (max-width: 1040px) {
+  .site-header {
+    padding-top: 40px;
+  }
+
+  .site-header__wraper {
+    max-width: 689px;
+  }
+}
+
+@media only screen and (max-width: 589px) {
+  .site-header {
+    padding-top: 32px;
+  }
+
+  .site-header__wraper {
+    max-width: 327px;
+  }
+
+  .site-header__img-wrap {
+    max-width: 163px;
+    height: 18px;
+  }
+
+  .navbar__list {
+    display: none;
+  }
+
+  .header__button {
+    display: inline-block;
+  }
+}
