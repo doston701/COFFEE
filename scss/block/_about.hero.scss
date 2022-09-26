@@ -1,0 +1,97 @@
+.hero-about {
+  margin-bottom: 168px;
+}
+
+.hero-about__wrapper {
+  max-width: 1280px;
+  width: 100%;
+  background-image: url("../../img/about-hero-bi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 137px 0 137px 85px;
+  border-radius: 10px;
+}
+
+.hero-about__content {
+  max-width: 445px;
+}
+
+.hero-about__title {
+  max-width: 188px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+
+.hero-about__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+}
+
+@media only screen and (max-width: 1040px) {
+  .hero-about {
+    margin-bottom: 144px;
+  }
+
+  .hero-about__wrapper {
+    max-width: 689px;
+    width: 100%;
+    background-image: url("../../img/about-tablet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 118px 0 118px 58px;
+    border-radius: 10px;
+  }
+
+  .hero-about__content {
+    max-width: 398px;
+  }
+
+  .hero-about__title {
+    max-width: 150px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero-about__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 598px) {
+  .hero-about {
+    margin-bottom: 120px;
+  }
+
+  .hero-about__wrapper {
+    max-width: 327px;
+    width: 100%;
+    background-image: url("../../img/about-mobile-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 111px 0 87px 24px;
+    border-radius: 10px;
+  }
+
+  .hero-about__content {
+    max-width: 279px;
+    text-align: center;
+  }
+
+  .hero-about__title {
+    max-width: 279px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .hero-about__text {
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.8;
+  }
+}

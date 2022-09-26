@@ -1,0 +1,137 @@
+.quality {
+  margin-bottom: 168px;
+}
+
+.quality__wrapper {
+  position: relative;
+  background-color: #2c343e;
+  border-radius: 10px;
+  padding: 88px 0 176px 85px;
+}
+
+.quality__content {
+  max-width: 540px;
+}
+
+.quality__title {
+  max-width: 517px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+
+.quality__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+
+.quality__img-wrapper {
+  position: absolute;
+  width: 445px;
+  height: 474px;
+  right: 85px;
+  bottom: 81px;
+}
+
+@media only screen and (max-width: 1040px) {
+  .quality {
+    margin-bottom: 144px;
+  }
+
+  .quality__wrapper {
+    position: relative;
+    max-width: 688px;
+    background-color: #2c343e;
+    padding: 224px 0 67px 74px;
+  }
+
+  .quality__content {
+    max-width: 540px;
+    text-align: center;
+  }
+
+  .quality__title {
+    max-width: 413px;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .quality__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .quality__img-wrapper {
+    position: absolute;
+    width: 573px;
+    height: 320px;
+    background-image: url("../../img/quality___tablet.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-radius: 8px;
+    left: 57px;
+    bottom: 308px;
+  }
+
+  .quality__img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 589px) {
+  .quality {
+    margin-bottom: 120px;
+  }
+
+  .quality__wrapper {
+    position: relative;
+    max-width: 327px;
+    background-color: #2c343e;
+    border-radius: 10px;
+    padding: 142px 0 61px 24px;
+  }
+
+  .quality__content {
+    max-width: 279px;
+    text-align: center;
+  }
+
+  .quality__title {
+    max-width: 279px;
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  .quality__text {
+    max-width: 279px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .quality__img-wrapper {
+    position: absolute;
+    width: 279px;
+    height: 156px;
+    background-image: url("../../img/quality___mobile.img");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    border-radius: 8px;
+    left: 25px;
+    bottom: 423px;
+  }
+
+  .quality__img {
+    display: none;
+  }
+}

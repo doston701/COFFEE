@@ -39,6 +39,47 @@
   @include btn;
 }
 
+.navbar__mobile-list {
+  position: fixed;
+  background: linear-gradient(
+    2deg,
+    rgba(254, 252, 247, 0.504981) 0%,
+    hsl(43, 78%, 98%) 55.94%
+  );
+  left: 0;
+  right: 0;
+  height: 100vh;
+  top: 93px;
+}
+
+.navbar__mobile-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+
+.navbar__mobile-item {
+  margin-top: 40px;
+}
+
+.navbar__mobile-link {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+}
+
+.open {
+  display: flex;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 1040px) {
   .hero {
     margin-bottom: 144px;
@@ -48,6 +89,12 @@
     background-image: url("../../img/tablet-bg.png");
     background-repeat: no-repeat;
     padding: 117px 0 116px 85px;
+  }
+
+  // about html
+
+  .hero__wrapper--about {
+    background-image: url("../../img/about-tablet.png");
   }
 
   .hero__content {

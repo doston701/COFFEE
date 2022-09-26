@@ -1,0 +1,141 @@
+.country {
+  margin-bottom: 168px;
+}
+
+.country__wrapper {
+  max-width: 1045px;
+  margin-left: 85px;
+}
+
+.country__title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 72px;
+}
+
+.country__list {
+  max-width: 1045px;
+  @include list;
+  justify-content: space-between;
+}
+
+.country__item {
+  max-width: 272px;
+  text-align: start;
+  height: 262px;
+}
+
+.country__img-wrapper {
+  width: 41px;
+  height: 50px;
+  margin-bottom: 45px;
+}
+
+.country__img {
+  width: 41px;
+  height: 50px;
+}
+
+.country__item-title {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-bottom: 24px;
+}
+
+.country__text {
+  max-width: 140px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+
+@media only screen and (max-width: 1040px) {
+  .country {
+    margin-bottom: 144px;
+  }
+
+  .country__wrapper {
+    max-width: 688px;
+    margin-left: 0;
+  }
+
+  .country__list {
+    max-width: 688px;
+    @include list;
+    justify-content: space-between;
+  }
+
+  .country__item {
+    max-width: 223px;
+    text-align: start;
+    height: 262px;
+  }
+
+  .country__item-title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 21px;
+  }
+}
+
+@media only screen and (max-width: 589px) {
+  .country {
+    margin-bottom: 120px;
+  }
+  .country__wrapper {
+    max-width: 327px;
+    margin-left: 0px;
+  }
+
+  .country__title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+    margin-bottom: 72px;
+    text-align: center;
+  }
+
+  .country__list {
+    max-width: 327px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .country__item {
+    max-width: 327px;
+    text-align: center;
+    height: 262px;
+    margin-bottom: 80px;
+  }
+
+  .country__img-wrapper {
+    width: 41px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+
+  .country__item-title {
+    font-size: 28px;
+    line-height: 36px;
+    color: #333d4b;
+    margin-bottom: 22px;
+  }
+
+  .country__text {
+    max-width: 140px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333d4b;
+    margin: 0 auto;
+  }
+}
