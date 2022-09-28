@@ -145,6 +145,44 @@ body {
     display: inline-block;
   }
 }
+.navbar__mobile-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.navbar__mobile-item {
+  margin-top: 40px;
+}
+
+.navbar__mobile-link {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  text-transform: uppercase;
+}
+
+.open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
 .hero {
   margin-bottom: 136px;
 }
@@ -1126,6 +1164,44 @@ body {
     opacity: 0.8;
   }
 }
+.navbar__mobile-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.navbar__mobile-item {
+  margin-top: 40px;
+}
+
+.navbar__mobile-link {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  text-transform: uppercase;
+}
+
+.open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
 .feature {
   margin-bottom: 244px;
 }
@@ -1622,6 +1698,44 @@ body {
     line-height: 25px;
   }
 }
+.navbar__mobile-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.navbar__mobile-item {
+  margin-top: 40px;
+}
+
+.navbar__mobile-link {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  text-transform: uppercase;
+}
+
+.open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
 .pick {
   margin-bottom: 168px;
 }

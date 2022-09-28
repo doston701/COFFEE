@@ -1,6 +1,6 @@
-const modal = document.querySelector("navbar__mobile-list");
+const modal = document.querySelector(".navbar__mobile-list");
 const body = document.querySelector("body");
-const btn = document.querySelector("header__button");
+const btn = document.querySelector(".header__button");
 
 btn.addEventListener("click", () => {
   modal.classList.toggle("open");
